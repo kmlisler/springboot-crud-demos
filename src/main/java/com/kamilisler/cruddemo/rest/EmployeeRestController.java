@@ -29,7 +29,7 @@ public class EmployeeRestController {
 
         Employee theEmployee = employeeService.findById(employeeId);
         if (theEmployee==null){
-            throw new RuntimeException("Employee id not found : "+employeeId);
+            throw new RuntimeException("Hey! Employee id not found : "+ employeeId);
         }
         return theEmployee;
     }
@@ -39,5 +39,20 @@ public class EmployeeRestController {
 
         employeeService.save(theEmployee);
         return theEmployee;
+    }
+    @PutMapping("/employees")
+    public Employee updateEmployee(@RequestBody Employee theEmployee){
+        employeeService.save(theEmployee);
+        return theEmployee;
+    }
+
+    @DeleteMapping("/employees/{employeeId}")
+    public String deleteEmployee(@PathVariable int employeeId){
+        Employee tempEmployee = employeeService.findById(employeeId);
+        if (tempEmployee == null) {
+            throw  new RuntimeException("Heyy! I can not find employee with id : "+employeeId);
+        }
+        employeeService.deleteById(employeeId);
+        return "deleted employee id "+employeeId;
     }
 }
