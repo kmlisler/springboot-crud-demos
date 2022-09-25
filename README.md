@@ -1,5 +1,5 @@
 # springboot-crud-demos
-practicing demo projects about crud projects with rest,hibernate, jpa,spring data jpa, thymeleaf
+contains several demo projects about crud projects with rest,hibernate/jpa/spring data jpa/thymeleaf
 ## i keep learning about Spring with SpringBoot  CRUD projects :)
 
 ### My old repository that i started SpringBoot : <a href="https://github.com/kmlisler/springboot-demo " target="_blank"> springboot-demo </a>
