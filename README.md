@@ -5,7 +5,7 @@ contains several demos about crud projects with rest,hibernate/jpa/spring data j
 
 
 ## My last finished repo link: <a href="https://github.com/kmlisler/springboot-thymeleafdemo" target="_blank"> Employee Register Project with Springboot & Thymeleaf </a>
-### Some screenshots of above repo
+### Some screenshots of the above repo
 ![image](https://user-images.githubusercontent.com/82888052/194730570-fceb6211-caa0-428d-9754-8891efa85445.png)
 #### when we click update for "Kamil"
 ![image](https://user-images.githubusercontent.com/82888052/194730617-8baf8172-a1b6-4335-bb9e-3d3f5f88651e.png)
